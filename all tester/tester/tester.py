@@ -47,7 +47,7 @@ class ReadFile:
 
 if __name__ == "__main__":
     file_reader = ReadFile()
-    file_path = "./logtester.txt"
+    file_path = "./all tester/tester/logtester.txt"
     log_entries = file_reader.read_log_file(file_path)
 
     # Filter log entries to get allocate and complete timestamps for each job

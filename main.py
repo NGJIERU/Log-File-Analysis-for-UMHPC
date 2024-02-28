@@ -28,8 +28,8 @@ if __name__ == "__main__": # This line checks whether the script is being run as
             time_execution = time_range.calculate_time_execution()
             print(f"JobID: {job_id}, Time Execution {idx+1}: {time_execution}")
 
-""" 
-    # Get the number of jobs created and ended
+
+"""     # Get the number of jobs created and ended
     jobs_created, jobs_ended = job_counter.get_counts()
     print(f"Number of jobs created: {jobs_created}")
-    print(f"Number of jobs ended: {jobs_ended}") """
+    print(f"Number of jobs ended: {jobs_ended}")  """
