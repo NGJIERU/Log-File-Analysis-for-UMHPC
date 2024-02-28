@@ -2,3 +2,11 @@
 [2022-10-17T14:32:36.618] sched: Allocate JobId=50922 NodeList=gpu02 #CPUs=6 Partition=gpu-titan
 [2022-10-20T20:05:30.345] _job_complete: JobId=50922 WEXITSTATUS 0
 [2022-10-20T20:05:30.345] _job_complete: JobId=50922 done
+[2022-10-20T22:21:46.851] _slurm_rpc_submit_batch_job: JobId=51117 InitPrio=5942 usec=418
+[2022-10-20T22:21:49.485] sched: Allocate JobId=51117 NodeList=cpu01 #CPUs=1 Partition=cpu-opteron
+[2022-10-20T22:41:09.377] _job_complete: JobId=51117 WEXITSTATUS 0
+[2022-10-20T22:41:09.378] _job_complete: JobId=51117 done
+[2022-10-21T08:25:57.994] _slurm_rpc_submit_batch_job: JobId=51122 InitPrio=2663 usec=644
+[2022-10-21T08:25:58.191] sched: Allocate JobId=51122 NodeList=cpu12 #CPUs=8 Partition=cpu-epyc
+[2022-10-21T08:38:27.093] _job_complete: JobId=51122 WEXITSTATUS 0
+[2022-10-21T08:38:27.093] _job_complete: JobId=51122 done

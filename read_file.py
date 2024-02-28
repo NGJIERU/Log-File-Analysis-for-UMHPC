@@ -1,12 +1,29 @@
 from log_entry import LogEntry
+from datetime import datetime
 
 class ReadFile:
-    def read_log_file(self, file_path):  # Added 'self' parameter
+    def read_log_file(self, file_path):  # Added 'self' parameter   
+        log_entries = []
         with open(file_path, 'r') as file:
+            for line in file:
+                timestamp_str, event_str = line.strip().split("] ")
+                timestamp = datetime.strptime(timestamp_str[1:], "%Y-%m-%dT%H:%M:%S.%f")
+                if "sched: Allocate" in event_str:
+                    job_id = event_str.split("JobId=")[1].split()[0]
+                    log_entries.append(LogEntry(timestamp, "sched: Allocate", job_id))
+                elif "_job_complete" in event_str:
+                    job_id = event_str.split("JobId=")[1].split()[0]
+                    log_entries.append(LogEntry(timestamp, "_job_complete", job_id))
+        return log_entries
+
+
+"""         with open(file_path, 'r') as file:
             log_entries = []
             lines = file.readlines()
             for line in lines:
-                print(line.strip())
+                print(line.strip()) """
+
+                
 """                 log_entry = self.parse_log_line(line)
                 if log_entry:  # Check if log_entry is not None
                     log_entries.append(log_entry)
