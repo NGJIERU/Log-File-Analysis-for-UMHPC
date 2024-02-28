@@ -1,0 +1,14 @@
+[2022-06-01T01:02:35.148] _slurm_rpc_submit_batch_job: JobId=42802 InitPrio=19758 usec=589
+[2022-06-01T01:02:36.012] sched: Allocate JobId=42802 NodeList=gpu05 #CPUs=32 Partition=gpu-v100s
+[2022-06-01T01:02:52.084] _slurm_rpc_kill_job: REQUEST_KILL_JOB JobId=42802 uid 548200045
+[2022-06-01T01:17:06.607] _job_complete: JobId=42784 WEXITSTATUS 0
+[2022-06-01T01:17:06.607] _job_complete: JobId=42784 done
+[2022-06-01T04:05:04.581] _job_complete: JobId=42801 WEXITSTATUS 2
+[2022-06-01T04:05:04.586] _job_complete: JobId=42801 done
+[2022-06-01T07:14:56.037] _slurm_rpc_submit_batch_job: JobId=42803 InitPrio=19758 usec=707
+[2022-06-01T07:14:56.632] sched: Allocate JobId=42803 NodeList=gpu05 #CPUs=32 Partition=gpu-v100s
+[2022-06-01T07:15:35.447] _slurm_rpc_kill_job: REQUEST_KILL_JOB JobId=42803 uid 548200045
+[2022-06-01T07:15:39.036] _slurm_rpc_submit_batch_job: JobId=42804 InitPrio=19758 usec=409
+[2022-06-01T07:15:39.684] sched: Allocate JobId=42804 NodeList=gpu05 #CPUs=32 Partition=gpu-v100s
+[2022-06-01T08:10:51.458] _job_complete: JobId=42720 WEXITSTATUS 0
+[2022-06-01T08:10:51.458] _job_complete: JobId=42720 done

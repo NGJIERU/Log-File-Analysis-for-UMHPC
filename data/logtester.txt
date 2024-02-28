@@ -1,0 +1,4 @@
+[2022-10-17T14:32:36.120] _slurm_rpc_submit_batch_job: JobId=50922 InitPrio=829 usec=543
+[2022-10-17T14:32:36.618] sched: Allocate JobId=50922 NodeList=gpu02 #CPUs=6 Partition=gpu-titan
+[2022-10-20T20:05:30.345] _job_complete: JobId=50922 WEXITSTATUS 0
+[2022-10-20T20:05:30.345] _job_complete: JobId=50922 done
