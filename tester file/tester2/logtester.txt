@@ -1,0 +1,21 @@
+[2022-06-07T10:26:35.028] error: _find_node_record: lookup failure for node "gpu08"
+[2022-06-07T10:26:35.028] error: node_name2bitmap: invalid node specified: "gpu08"
+[2022-08-04T14:08:25.539] error: _find_node_record: lookup failure for node "cpu12.dicc.um.edu.my"
+[2022-08-04T14:08:25.539] error: node_name2bitmap: invalid node specified: "cpu12.dicc.um.edu.my"
+[2022-08-04T14:08:25.539] error: _find_node_record: lookup failure for node "cpu13.dicc.um.edu.my"
+[2022-08-04T14:08:25.539] error: node_name2bitmap: invalid node specified: "cpu13.dicc.um.edu.my"
+[2022-08-04T14:08:25.539] error: _find_node_record: lookup failure for node "cpu14.dicc.um.edu.my"
+[2022-08-04T14:08:25.539] error: node_name2bitmap: invalid node specified: "cpu14.dicc.um.edu.my"
+[2022-08-04T14:08:25.539] error: _find_node_record: lookup failure for node "cpu15.dicc.um.edu.my"
+[2022-08-04T14:08:25.539] error: node_name2bitmap: invalid node specified: "cpu15.dicc.um.edu.my"
+[2022-08-04T14:10:47.743] _slurm_rpc_kill_job: REQUEST_KILL_JOB JobId=47473 uid 548200003
+[2022-08-04T14:11:27.300] _slurm_rpc_submit_batch_job: JobId=47474 InitPrio=22873 usec=415
+[2022-08-04T14:11:27.628] sched: Allocate JobId=47474 NodeList=cpu[12-15] #CPUs=64 Partition=cpu-epyc
+[2022-08-04T14:11:29.769] error: _find_node_record: lookup failure for node "cpu12.dicc.um.edu.my"
+[2022-08-04T14:11:29.769] error: node_name2bitmap: invalid node specified: "cpu12.dicc.um.edu.my"
+[2022-08-04T14:11:29.769] error: _find_node_record: lookup failure for node "cpu13.dicc.um.edu.my"
+[2022-08-04T14:11:29.769] error: node_name2bitmap: invalid node specified: "cpu13.dicc.um.edu.my"
+[2022-08-04T14:11:29.769] error: _find_node_record: lookup failure for node "cpu14.dicc.um.edu.my"
+[2022-08-04T14:11:29.769] error: node_name2bitmap: invalid node specified: "cpu14.dicc.um.edu.my"
+[2022-08-04T14:11:29.769] error: _find_node_record: lookup failure for node "cpu15.dicc.um.edu.my"
+[2022-08-04T14:11:29.769] error: node_name2bitmap: invalid node specified: "cpu15.dicc.um.edu.my"

@@ -1,0 +1,20 @@
+[2022-06-01T15:12:23.290] error: This association 187(account='free', user='lobbeytan', partition='(null)') does not have access to qos long
+[2022-06-01T15:12:23.291] _slurm_rpc_submit_batch_job: Invalid qos specification
+[2022-06-01T15:12:37.315] _job_create: exceeded association/QOS limit for user 548300564: AssocGrpCpuLimit
+[2022-06-01T15:12:37.315] _slurm_rpc_submit_batch_job: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+[2022-06-01T15:12:48.448] error: This association 194(account='free', user='tingweijing', partition='(null)') does not have access to qos normal
+[2022-06-01T15:12:48.448] _slurm_rpc_submit_batch_job: Invalid qos specification
+[2022-06-01T15:12:54.891] error: This association 194(account='free', user='tingweijing', partition='(null)') does not have access to qos long
+[2022-06-01T15:12:54.891] _slurm_rpc_submit_batch_job: Invalid qos specification
+[2022-06-01T15:12:58.128] error: This association 186(account='free', user='f4ww4z', partition='(null)') does not have access to qos long
+[2022-06-01T15:12:58.128] _slurm_rpc_submit_batch_job: Invalid qos specification
+[2022-06-01T15:13:07.140] _job_create: exceeded association/QOS limit for user 548300556: AssocGrpCpuLimit
+[2022-06-01T15:13:07.140] _slurm_rpc_submit_batch_job: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+[2022-06-01T15:13:17.233] error: This association 186(account='free', user='f4ww4z', partition='(null)') does not have access to qos long
+[2022-06-01T15:13:17.233] _slurm_rpc_submit_batch_job: Invalid qos specification
+[2022-06-01T15:13:46.163] error: This association 186(account='free', user='f4ww4z', partition='(null)') does not have access to qos long
+[2022-06-01T15:13:46.163] _slurm_rpc_submit_batch_job: Invalid qos specification
+[2022-06-01T15:14:00.192] _job_create: exceeded association/QOS limit for user 548300558: AssocGrpCpuLimit
+[2022-06-01T15:14:00.192] _slurm_rpc_submit_batch_job: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+[2022-06-01T15:14:31.538] error: This association 186(account='free', user='f4ww4z', partition='(null)') does not have access to qos long
+[2022-06-01T15:14:31.538] _slurm_rpc_submit_batch_job: Invalid qos specification

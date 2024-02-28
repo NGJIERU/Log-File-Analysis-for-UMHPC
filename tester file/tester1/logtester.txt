@@ -1,0 +1,11 @@
+[2022-06-01T07:15:39.036] _slurm_rpc_submit_batch_job: JobId=42804 InitPrio=19758 usec=409
+[2022-06-01T07:15:39.684] sched: Allocate JobId=42804 NodeList=gpu05 #CPUs=32 Partition=gpu-v100s
+[2022-06-01T15:31:27.874] _slurm_rpc_kill_job: REQUEST_KILL_JOB JobId=42804 uid 548300563
+[2022-06-01T15:31:27.874] error: Security violation, REQUEST_KILL_JOB RPC for JobId=42804 from uid 548300563
+[2022-06-01T15:31:27.874] _slurm_rpc_kill_job: job_str_signal() uid=548300563 JobId=42804 sig=9 returned: Access/permission denied
+[2022-06-02T08:49:10.653] _job_complete: JobId=42804 WEXITSTATUS 0
+[2022-06-02T08:49:10.653] _job_complete: JobId=42804 done
+[2022-06-05T09:18:49.898] error: Security violation, REQUEST_KILL_JOB RPC for JobId=43012 from uid 548300504
+[2022-06-05T09:18:49.898] _slurm_rpc_kill_job: job_str_signal() uid=548300504 JobId=43012 sig=9 returned: Access/permission denied
+[2022-06-06T06:39:33.638] error: Security violation, REQUEST_KILL_JOB RPC for JobId=42957 from uid 548200083
+[2022-06-06T06:39:33.638] _slurm_rpc_kill_job: job_str_signal() uid=548200083 JobId=42957 sig=9 returned: Access/permission denied
